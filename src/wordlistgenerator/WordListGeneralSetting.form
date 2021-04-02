@@ -1,0 +1,206 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" resourceKey="title"/>
+    <Property name="modal" type="boolean" value="true"/>
+    <Property name="name" type="java.lang.String" value="aboutBox" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jchkLeetSpeak" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jchkAddCharInBegin" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jchkMakeEndLetterCapital" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jchkMakeFirstLetterCapital" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jchkAddSpaceInWords" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="JtxtBeginWord" min="-2" pref="180" max="-2" attributes="0"/>
+                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                      <Component id="jchkAddCharAtEnd" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="jtxtEndWord" min="-2" pref="180" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jtxtFileSize" min="-2" pref="132" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jtxtFolderLocation" alignment="0" min="-2" pref="414" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="closeButton" alignment="1" pref="98" max="32767" attributes="1"/>
+                          <Component id="jButton1" alignment="1" min="-2" pref="98" max="-2" attributes="1"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Component id="jchkLeetSpeak" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="jchkAddCharInBegin" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="JtxtBeginWord" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jchkAddCharAtEnd" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxtEndWord" alignment="2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Component id="jchkAddSpaceInWords" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Component id="jchkMakeFirstLetterCapital" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Component id="jchkMakeEndLetterCapital" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="jtxtFolderLocation" alignment="3" pref="23" max="32767" attributes="1"/>
+                  <Component id="jButton1" alignment="3" max="32767" attributes="1"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="jtxtFileSize" alignment="3" pref="24" max="32767" attributes="1"/>
+                  <Component id="jLabel3" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="closeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="closeButton">
+      <Properties>
+        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+          <action class="wordlistgenerator.WordListGeneralSetting" id="closeAboutBox" methodName="closeAboutBox"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="closeButton" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jchkLeetSpeak">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jchkLeetSpeak.text"/>
+        <Property name="name" type="java.lang.String" value="jchkLeetSpeak" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jchkAddCharInBegin">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jchkAddCharInBegin.text"/>
+        <Property name="name" type="java.lang.String" value="jchkAddCharInBegin" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jchkAddCharAtEnd">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jchkAddCharAtEnd.text"/>
+        <Property name="name" type="java.lang.String" value="jchkAddCharAtEnd" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JtxtBeginWord">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="JtxtBeginWord.text"/>
+        <Property name="name" type="java.lang.String" value="JtxtBeginWord" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtEndWord">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jtxtEndWord.text"/>
+        <Property name="name" type="java.lang.String" value="jtxtEndWord" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jchkAddSpaceInWords">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jchkAddSpaceInWords.text"/>
+        <Property name="name" type="java.lang.String" value="jchkAddSpaceInWords" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel1.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtFolderLocation">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jtxtFolderLocation.text"/>
+        <Property name="enabled" type="boolean" value="false"/>
+        <Property name="name" type="java.lang.String" value="jtxtFolderLocation" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+          <action class="wordlistgenerator.WordListGeneralSetting" id="browse_click" methodName="browse_click"/>
+        </Property>
+        <Property name="text" type="java.lang.String" resourceKey="jButton1.text"/>
+        <Property name="name" type="java.lang.String" value="jButton1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jchkMakeFirstLetterCapital">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jchkMakeFirstLetterCapital.text"/>
+        <Property name="name" type="java.lang.String" value="jchkMakeFirstLetterCapital" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jchkMakeEndLetterCapital">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jchkMakeEndLetterCapital.text"/>
+        <Property name="name" type="java.lang.String" value="jchkMakeEndLetterCapital" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel2.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel2" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtFileSize">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jtxtFileSize" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="jLabel3.text"/>
+        <Property name="name" type="java.lang.String" value="jLabel3" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
