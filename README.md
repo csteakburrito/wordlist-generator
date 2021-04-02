@@ -3,7 +3,7 @@ Generate wordlists from specified websites, a custom character set or a default 
 
 ## Run
 ```sh
-dist/WordListGenerator.jar
+Download "latest_build.zip" Open dist/ Run WordListGenerator.jar
 ```
 > Note: If you are unable to open the program please make sure you have the latest version of Java and check security settings
 
