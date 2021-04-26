@@ -1,6 +1,8 @@
 # wordlist-generator
 Generate wordlists from specified websites, a custom character set or a default set
 
+Last Updated: 2014-03-30
+
 ## Run
 ```sh
 Download "latest_build.zip" Open dist/ Run WordListGenerator.jar
